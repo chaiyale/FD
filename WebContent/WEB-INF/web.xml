@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>FD</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>searchFiles</display-name>
+    <servlet-name>searchFiles</servlet-name>
+    <servlet-class>search.searchFiles</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>searchFiles</servlet-name>
+    <url-pattern>/searchFiles</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>haha</display-name>
+    <servlet-name>haha</servlet-name>
+    <servlet-class>search.haha</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>haha</servlet-name>
+    <url-pattern>/haha</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>test1</display-name>
+    <servlet-name>test1</servlet-name>
+    <servlet-class>test.test1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>test1</servlet-name>
+    <url-pattern>/test1</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>makeForms</display-name>
+    <servlet-name>makeForms</servlet-name>
+    <servlet-class>search.makeForms</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>makeForms</servlet-name>
+    <url-pattern>/makeForms</url-pattern>
+  </servlet-mapping>
+</web-app>
